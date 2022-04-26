@@ -620,7 +620,7 @@
   .listItem:after {
     display: block;
     content: "";
-    padding-bottom: 40px;
+    padding-bottom: 36px;
     border-bottom: solid 4px rgb(0, 0, 0);
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
