@@ -3,7 +3,9 @@ import styles from "../../styles/Pricing.module.css";
 
 const Pricing = () => {
   return (
-    <div className={styles.container} id='products/pricing'>
+    <section id='products/pricing'>
+ 
+    <div className={styles.container} >
       <h2 className={styles.heading}>Pricing plans</h2>
       <p className={styles.desc}>
         You can even use our demo version to check the whole  system
@@ -30,7 +32,8 @@ const Pricing = () => {
         </div>
               <a className={styles.btn} href="https://app.tteld.com/#/auth/signin">Get Started</a>
       </div>
-    </div>
+    </div>  
+     </section>
   );
 };
 
