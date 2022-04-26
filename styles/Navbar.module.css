@@ -25,7 +25,7 @@
 }
 .list {
   margin-left: auto;
-  margin-top: 33px;
+  margin-top: 40px;
 }
 .a {
   text-decoration: none;
@@ -50,7 +50,7 @@
 .listItem:after {
   display: block;
   content: "";
-  padding-bottom: 40px;
+  padding-bottom: 36px;
   border-bottom: solid 4px rgb(0, 0, 0);
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
@@ -566,8 +566,6 @@
     font-size: 60px;
   }
 } 
-
-
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .containers {
     display: flex;
@@ -597,7 +595,7 @@
   }
   .list {
     margin-left: auto;
-    margin-top: 33px;
+    margin-top: 36px;
   }
   .a {
     text-decoration: none;
