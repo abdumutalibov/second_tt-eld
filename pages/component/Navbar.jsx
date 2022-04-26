@@ -46,7 +46,7 @@ const Navbar = () => {
           />
         </a>
         <ul className={styles.list}>
-          <li className={styles.listItem}>
+        <li className={styles.listItem}>
             <a className={styles.a} href="#products/design">Home</a>
           </li>
           <li className={styles.listItem}>
