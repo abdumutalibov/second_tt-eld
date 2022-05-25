@@ -53,7 +53,9 @@ const RequestDemo = () => {
               className={styles.input}
               name='email'
               type="email"
-              placeholder="Your Email*"
+              placeholder=" Number of 
+              trucks
+              *"
               required
 
             />
@@ -71,7 +73,8 @@ const RequestDemo = () => {
               className={styles.input}
               name='truckAmount'
               type="number"
-              placeholder="Amount of trucks*"
+              placeholder=" Quantity of 
+              trucks*"
               required
 
             />

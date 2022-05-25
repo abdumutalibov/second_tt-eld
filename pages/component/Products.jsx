@@ -10,10 +10,8 @@ const Products = () => {
       <div className={styles.mainHeading}>
         <h2 className={styles.heading}>Our Products</h2>
         <p className={styles.desc}>
-          Working hard for something we don’t care about is called
-          
-          stressed, working hard for something we love is called
-          passion.
+        Working hard for something we don’t care about is called being stressed, 
+working hard for something we love is called being passionate.
         </p>
         <div className={styles.line}></div>
         <div className={styles.mainPanel}>
@@ -24,8 +22,10 @@ const Products = () => {
               </div>
               <div className={styles.feature}>Dispatch Board</div>
               <p className={styles.p}>
-                Dispatch Board will streamline day-to-day operations maximizing
-                your time so you can focus on better loads and bigger profit.
+              Dispatch board will streamline 
+day-to-day operations optimizing 
+your time usage so you can focus 
+on better loads and higher profit
               </p>
             </div>
             <div className={styles.panel}>
@@ -34,9 +34,10 @@ const Products = () => {
               </div>
               <div className={styles.feature}>Asset Tracker</div>
               <p className={styles.p}>
-                TT ELD Asset Tracker is the most effective to secure your asset
-                through bottom line. It is for who care about the safety of
-                their drivers and trucks.
+              TT ELD Asset Tracker is the most effective 
+system to secure your asset. It is for those 
+business owners who care about the safety of 
+their drivers and trucks.
               </p>
             </div>
             <div className={styles.panel}>
@@ -45,8 +46,10 @@ const Products = () => {
               </div>
               <div className={styles.feature}>ELD Compliance Solution</div>
               <p className={styles.p}>
-                Our FMCSA-certified ELD compliance solution provides users with
-                a wide variety of comprehensive features.
+              Our FMCSA-certified ELD provides a wide 
+variety of beneficial features and functions 
+along with compliant solutions that can 
+increase your ROI significantly.
               </p>
             </div>
             <div className={styles.panel}>
@@ -55,9 +58,10 @@ const Products = () => {
               </div>
               <div className={styles.feature}>Dash Camera System</div>
               <p className={styles.p}>
-                According to FMCSA research that accident rose over $1,2
-                million; with TT ELD camera business will secure both its
-                finance and fleet.
+              TT ELD camera is one of the most efficient 
+tools for security practices, and it is being 
+implemented by more and more 
+businesses.
               </p>
             </div>
           </div>

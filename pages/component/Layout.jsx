@@ -13,7 +13,7 @@ const Layout = ({children}) => {
         <Navbar/>
         <Intro/>
         <Products/>
-       {/* <Features/> */}
+       <Features/>
     <Pricing/>
     <RequestDemo/>
     <Footer/>

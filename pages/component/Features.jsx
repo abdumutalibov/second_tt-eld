@@ -5,15 +5,19 @@ import { FiMonitor } from "react-icons/fi";
 
 const Features = () => {
   return (
-    <div>
+    <>
           <section className={styles.container} id='products/production'>
+          <div className={styles.HeroBg}>
+            {/* <img src='Background.svg'/> */}
+          </div>
 <div className={styles.mainCard}>
         <div className={styles.card}>
 
                 <div className={styles.brand}><IoMdTabletPortrait/> </div>
                 <div className={styles.line}></div>
-            <h2 className={styles.title}>Driver App on any sceen</h2>
-            <p className={styles.desc}>Right measurement of the fleet help you set up precise business. Our Driver App provides a most comprehensive solutions to the market.</p>
+            <h2 className={styles.title}> Driver App on any screen</h2>
+            <p className={styles.desc}>Correct analysis of the fleet helps you set up precise business processes. Our 
+"Driver App" provides the most comprehensive solutions in the market.</p>
         </div>
         <div className={styles.F_right}>
             <img className={styles.F_img1} src="https://tteld.com/assets/images/custom/mockup1.png" alt="device"/>
@@ -36,7 +40,9 @@ const Features = () => {
         <div className={styles.brand}><FiMonitor/> </div>
         <div className={styles.lines}></div>
         <h2 className={styles.feature}>Flexible Dispatch Board</h2>
-        <p className={styles.feature2}>Dispatch Board is the go-to dispatching software - created with carrier needs in mind. Dispatch Board will streamline day-to-day operations maximizing your time so you can focus on better loads and bigger profit.</p>
+        <p className={styles.feature2}>Dispatch Board is the dispatch software with a user-friendly interface created 
+relying on customers' needs and requirements. The flexibility of our product helps 
+you avoid unnecessary training of your employees.</p>
           </div>
           </div>
           
@@ -50,8 +56,9 @@ const Features = () => {
 
                 <div className={styles.brand}><IoMdTabletPortrait/> </div>
                 <div className={styles.line}></div>
-            <h2 className={styles.title}>Chat on drivers and dispatchers</h2>
-            <p className={styles.desc}>We understand the importance of approaching each work integrally and believe in the power of simple and easy communication.</p>
+            <h2 className={styles.title}> Chat of drivers and dispatchers</h2>
+            <p className={styles.desc}>We understand the importance of approaching each task integrally and believe in 
+the power of simple and easy communication.</p>
         </div>
         <div className={styles.F_right}>
             <img className={styles.F_img1} src="https://tteld.com/assets/images/custom/chat.png" alt="device"/>
@@ -82,7 +89,7 @@ const Features = () => {
 
       </div>
     </section>
-    </div>
+    </>
 
   )
 }
