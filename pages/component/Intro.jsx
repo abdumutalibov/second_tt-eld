@@ -8,9 +8,6 @@ const Intro = () => {
   
       
      <div className={styles.container} id ='products/design'>
- <div className={styles.HeroBg}>
-            {/* <img className={styles.ImgBg} src='footerBg.jpg'/> */}
-          </div>
         <div className={styles.mainCard}>
             <div className={styles.card}>Advanced Fleet Management Solution</div>
             <h3 className={styles.myHeader}>The most easy-to-use ELD device and application</h3>
