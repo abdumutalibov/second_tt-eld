@@ -7,9 +7,7 @@ const Features = () => {
   return (
     <>
           <section className={styles.container} id='products/production'>
-          <div className={styles.HeroBg}>
-            {/* <img src='Background.svg'/> */}
-          </div>
+       
 <div className={styles.mainCard}>
         <div className={styles.card}>
 
